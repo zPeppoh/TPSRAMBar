@@ -3,7 +3,7 @@ version: '${project.version}'
 description: A Minecraft plugin for displaying TPS and RAM usage on boss bars.
 author: Daniboy
 main: dev.daniboy.tpsrambar.TPSRAMBar
-api-version: '1.20'
+api-version: '1.17'
 commands:
   tpsbar:
     description: Enable or disable the TPS boss bar.
@@ -12,13 +12,13 @@ commands:
   tpsramreload:
     description: Reload the plugin configuration.
 permissions:
-  yourplugin.tps:
+  viperdebug.tps:
     description: Allows access to the TPS boss bar.
     default: op
-  yourplugin.ram:
+  viperdebug.ram:
     description: Allows access to the RAM boss bar.
     default: op
-  yourplugin.reload:
+  viperdebug.reload:
     description: Allows access to reload the plugin configuration.
     default: op
 
